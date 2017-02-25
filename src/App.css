@@ -1,24 +1,36 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Forum');
+
+.tab-detail {
+    padding : 20px;
+    overflow-scrolling: auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.custom-table {
+    border-left : 1px solid #eee;
+    overflow: scroll;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.floater {
+    float: right;
+    padding-right: 10px;
 }
 
-.App-intro {
-  font-size: large;
+.main-body {
+    width: 100%;
+    height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.section-heading {
+    font-family: 'Forum', sans-serif;
+    font-size: 200%;
+    margin-top: 5px;
+    padding: 15px 0 5px 5px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+thead {
+    font-weight: bold;
 }
